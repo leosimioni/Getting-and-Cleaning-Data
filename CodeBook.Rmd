@@ -1,0 +1,30 @@
+---
+title: "CodeBook"
+author: "Leonardo Simioni"
+date: "2022-09-20"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Code Book
+
+Step 1. Loads the required package
+
+Step 2. Downloads the required data set.
+
+Step 3. Assigns the data frames.
+
+Step 4. Merges the training and the test sets to create one data set.
+
+Step 5. Extracts only the measurements on the mean and standard deviation for each measurement.
+
+Step 6. Uses descriptive activity names to name the activities in the data set.
+
+Step 7. Labels the data set with descriptive variable names.
+
+Step 8. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
